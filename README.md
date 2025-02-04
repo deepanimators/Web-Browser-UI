@@ -2,16 +2,16 @@
 
 <br/>
 
-[![GitHub stars](https://img.shields.io/github/stars/browser-use/web-ui?style=social)](https://github.com/browser-use/web-ui/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/browser-use/web-ui?style=social)](https://github.com/deepanimators/Web-Browser-UI)
 [![Discord](https://img.shields.io/discord/1303749220842340412?color=7289DA&label=Discord&logo=discord&logoColor=white)](https://link.browser-use.com/discord)
 [![Documentation](https://img.shields.io/badge/Documentation-📕-blue)](https://docs.browser-use.com)
 [![WarmShao](https://img.shields.io/twitter/follow/warmshao?style=social)](https://x.com/warmshao)
 
-This project builds upon the foundation of the [browser-use](https://github.com/browser-use/browser-use), which is designed to make websites accessible for AI agents.
+This project builds upon the foundation of the [browser-UI](https://github.com/deepanimators/Web-Browser-UI), which is designed to make websites accessible for AI agents.
 
-We would like to officially thank [WarmShao](https://github.com/warmshao) for his contribution to this project.
+We would like to officially thank [Deepanimators](https://github.com/deepanimators) for his contribution to this project.
 
-**WebUI:** is built on Gradio and supports most of `browser-use` functionalities. This UI is designed to be user-friendly and enables easy interaction with the browser agent.
+**WebUI:** is built on Gradio and supports most of `browser-UI` functionalities. This UI is designed to be user-friendly and enables easy interaction with the browser agent.
 
 **Expanded LLM Support:** We've integrated support for various Large Language Models (LLMs), including: Gemini, OpenAI, Azure OpenAI, Anthropic, DeepSeek, Ollama etc. And we plan to add support for even more models in the future.
 
@@ -19,13 +19,11 @@ We would like to officially thank [WarmShao](https://github.com/warmshao) for hi
 
 **Persistent Browser Sessions:** You can choose to keep the browser window open between AI tasks, allowing you to see the complete history and state of AI interactions.
 
-<video src="https://github.com/user-attachments/assets/56bc7080-f2e3-4367-af22-6bf2245ff6cb" controls="controls">Your browser does not support playing this video!</video>
-
 ## Installation Options
 
 ### Option 1: Local Installation
 
-Read the [quickstart guide](https://docs.browser-use.com/quickstart#prepare-the-environment) or follow the steps below to get started.
+Read and follow the steps below to get started.
 
 > Python 3.11 or higher is required.
 
@@ -82,7 +80,7 @@ playwright install
 4. **Access the Application:**
    - WebUI: `http://localhost:7788`
    - VNC Viewer (to see browser interactions): `http://localhost:6080/vnc.html`
-   
+
    Default VNC password is "youvncpassword". You can change it by setting the `VNC_PASSWORD` environment variable in your `.env` file.
 
 
@@ -179,6 +177,6 @@ playwright install
    ```
 
 ## Changelog
-- [x] **2025/01/26:** Thanks to @vvincent1234. Now browser-use-webui can combine with DeepSeek-r1 to engage in deep thinking!
-- [x] **2025/01/10:** Thanks to @casistack. Now we have Docker Setup option and also Support keep browser open between tasks.[Video tutorial demo](https://github.com/browser-use/web-ui/issues/1#issuecomment-2582511750).
-- [x] **2025/01/06:** Thanks to @richard-devbot. A New and Well-Designed WebUI is released. [Video tutorial demo](https://github.com/warmshao/browser-use-webui/issues/1#issuecomment-2573393113).
+- [x] **2025/01/26:** Thanks to @deepanimators. Now browser-UI can combine with DeepSeek-r1 to engage in deep thinking!
+- [x] **2025/01/10:** Thanks to @deepanimators. Now we have Docker Setup option and also Support keep browser open between tasks.
+- [x] **2025/01/06:** Thanks to @deepanimators. A New and Well-Designed WebUI is released.
